@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+  padding: 0 1rem;
+  background: #202020;
+  padding: 0.5rem 1rem;
+}
+
+.header .logo,
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  padding: 0.5rem 0.8rem;
+  background: tomato;
+
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+}
+.perfil p {
+  font-size: .8rem;
+}
+.perfil img {
+  width: 40px;
+  height: 40px;
+}
+
+.header form {
+  background: #121212;
+  padding: 0.3rem;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #272727;  ;
+}
+
+.header form input {
+  background: transparent;
+  border: none;
+    width: 100%;
+  padding: 0.4rem 1rem;
+  outline: none;
+}
+
+.header form button {
+  background: #202020;
+  border: none;
+  color: whitesmoke;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+}

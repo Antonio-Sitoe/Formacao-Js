@@ -1,0 +1,51 @@
+.footer {
+  background: var(--background-color-default);
+  padding: 3rem 0 5rem 0;
+  color: var(--color-grey);
+}
+.footer .footer-header {
+  padding: 0 0 3rem 0;
+}
+.footer .footer-header .logo {
+  border: none;
+}
+
+.footer-body,
+.footer-body-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+.footer-body-list ul {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.newsletter {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid whitesmoke;
+}
+
+.newsletter form input {
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 1rem;
+  outline: none;
+}
+.newsletter form button {
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  color: var(--color-white);
+  background: #202675;
+}

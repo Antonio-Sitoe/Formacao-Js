@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+:root {
+  --primary-color:whitesmoke;
+  --primary-color-darker:rgb(9, 48, 56);
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1em;
+  background: var(--primary-color);
+  font-family: 'IBM Plex Serif', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.container {
+  background: white;
+  max-width: 600px;
+  width: 100%;
+
+  border-radius: .3rem;
+  padding: 3rem;
+}
+.senha-gerada {
+  text-align: center;
+  padding: 1rem;
+  color: #cf8753;
+ font-weight: bold;  background: rgb(207, 201, 185);
+  font-family: 'IBM Plex Serif', serif;
+  border-radius: .3rem;
+}
+
+.quant {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quant p {
+  font-weight: bold;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+form div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+button {
+  padding: .8rem;
+  border: none;
+  background:  #cf8753;
+  color: white;
+  border-radius: .3rem;
+  cursor: pointer;
+
+}

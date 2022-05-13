@@ -1,0 +1,8 @@
+@import './base/typograph.css';
+@import './base/normalize.css';
+@import './base/geral.css';
+
+@import './components/header.css';
+@import './components/video.css';
+@import './components/footer.css';
+@import './components/modal.css';

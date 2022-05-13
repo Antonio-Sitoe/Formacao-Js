@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+
+<section class="container">
+  <h1>Gerador de senhas</h1>
+  <div class="senha-gerada">
+    Selecione as opcoes
+  </div>
+
+  <div class="quant">
+    <p>Quantidade de caracteres</p>
+    <input type="number"
+    min="1"
+    value="20"
+    max="50"
+     class="caracteres"
+     placeholder="20"
+     />
+    </div>
+
+     <form class="form">
+       <div class="form-div">
+         <label for="mai"> Adicionar Maiúscula </label>
+         <input type="checkbox" id="mai" />
+       </div>
+       <div class="form-div">
+         <label for="min">Adicionar Minusculas</label>
+          <input type="checkbox" id="min" />
+       </div>
+          <div class="form-div">
+         <label for="num">Adicionar Numeros</label>
+          <input type="checkbox" id="num" />
+       </div>
+       <div class="form-div">
+         <label for="sim">Adicionar Simbolos</label>
+          <input type="checkbox" id="sim" />
+       </div>
+
+       <button>Gerar Senha</button>
+     </form>
+
+     <ul class="lista">
+       <li>maca</li>
+       <li>banana</li>
+     </ul>
+  </div>
+</section>
+<script src="index.js"></script>
+  
+</body>
+</html>

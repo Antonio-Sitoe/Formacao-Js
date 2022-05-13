@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rest.Bar - encontre todos os pratos do pais</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header-navegation">
+        <a href="index.html" class="logo">
+          <img src="img/logo.svg" alt="" />
+        </a>
+        <ul class="header-list">
+          <li><a href="index.html">Pratos do dia</a></li>
+          <li><a href="about.html">Sobre Nós</a></li>
+        </ul>
+        <button class="btn-mobile"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="spaced">
+        <span class="spanBtn">
+          <img src="img/filter.png" alt="image of filter" />
+          Filtros</span>
+        <h2 class="mainTitle" data-main="title">Os Melhores Pratos do pais e de fora</h2>
+      </div>
+      <div class="main-row">
+        <section class="main-category">
+          <h3>Categorias</h3>
+          <ul class="main-list">
+            <li>
+              <label for="all">
+                <input type="radio" name="category" id="all" />
+                Todos os pratos
+              </label>
+            </li>
+            <li>
+              <label for="sul">
+                <input type="radio" name="category" id="sul" />
+                Sul
+              </label>
+            </li>
+            <li>
+              <label for="centre">
+                <input type="radio" name="category" id="centre" />
+                Centro
+              </label>
+            </li>
+            <li>
+              <label for="north">
+                <input type="radio" name="category" id="north" />
+                Norte
+              </label>
+            </li>
+            <li>
+              <label for="international">
+                <input type="radio" name="category" id="international" />
+                Internacional
+              </label>
+            </li>
+          </ul>
+        </section>
+
+        <section class="main-content">
+          <ul class="main-content-list">
+            <li class="content-item">
+              <img src="https://foodadvisor-api.strapi.io/uploads/05b96a46ea2b4b7bb045bd8b000bedb3.jpeg"
+                alt="image of food" class="content-img" />
+              <div class="content-info">
+                <h4 class="content-info-h4">
+                  <span class="content-info-h4-title">Caril de Camarão</span>
+                  <span class="content-info-h4-price">200 MT</span>
+                </h4>
+                <p>Category:<span class="content-info-h4-category">Sul</span><span>★★★★★</span></p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <section class="loading">
+    <div>
+      <div class="loadingElement"></div>
+      <p>Buscando os dados</p>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-header">
+        <a href="index.html" class="logo">
+          <img src="img/logo.svg" alt="" />
+        </a>
+      </div>
+      <div class="footer-body">
+        <div class="footer-body-list">
+          <ul>
+            <li>Termos</li>
+            <li>Privacidade</li>
+            <li>Contacto</li>
+          </ul>
+
+          <ul>
+            <li>Restaurantes</li>
+            <li>About us</li>
+            <li onclick="eveno">Pratos</li>
+          </ul>
+
+          <ul>
+            <li>Minha conta</li>
+            <li>Favoritos</li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <p>Assine a nossa newsletter :</p>
+          <form class="newsletter-input" target="_blank" action="https://formsubmit.co/antoniositoehl@gmail.com"
+            method="POST">
+            <input type="email" name="email" placeholder="Digite o seu email" required>
+            <button>➤</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-bg">
+    <div class="modal">
+      <div class="modal-bg-image"></div>
+      <div class="modal-content">
+        <h1 class="mainTitle">Faca a sua reserva do prato</h1>
+
+        <div class="content-info">
+          <h4 class="content-info-h4">
+            <span class="content-info-h4-title">Caril de Camarão</span>
+            <span class="content-info-h4-price">200 MT</span>
+          </h4>
+          <p>Category:<span class="content-info-h4-category">Sul</span><span>★★★★★</span></p>
+        </div>
+
+        <form  action="https://formsubmit.co/antoniositoehl@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Digite o seu nome" required>
+          <input type="email" name="email" placeholder="Digite o seu email" required>
+          <input type="number" name="numero" placeholder="Digite o seu numero" required>
+          <button>Fazer reserva</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+
+</html>

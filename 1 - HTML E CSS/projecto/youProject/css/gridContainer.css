@@ -1,0 +1,21 @@
+
+.grid-Container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-areas: 
+  'header header header'
+  'menu content content'
+  'menu content content'
+  ;
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+}
+.menu {
+  grid-area: menu;
+}
+.content {
+  grid-area: content;
+}

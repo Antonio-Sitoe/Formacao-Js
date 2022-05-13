@@ -1,0 +1,116 @@
+{
+  "pratos": [
+    {
+      "id": 1,
+      "image": "https://foodadvisor-api.strapi.io/uploads/bdb95ff372e0430d9789b6acbcddff5b.jpeg",
+      "name": "Guisado de Caranguejo",
+      "category": "Sul",
+      "price": 1200
+    },
+    {
+      "id": 2,
+      "image": "https://foodadvisor-api.strapi.io/uploads/5fe7e3ac45354029bc0d9dd52d4e00ec.jpeg",
+      "name": "Xiguinha",
+      "category": "Sul",
+      "price": 800
+    },
+    {
+      "id": 3,
+      "image": "https://foodadvisor-api.strapi.io/uploads/3cccaad906dd46d2b5b3eb4a9d9c0d76.jpeg",
+      "name": "Peixe à Lumbo",
+      "category": "Sul",
+      "price": 400
+    },
+    {
+      "id": 4,
+      "image": "https://foodadvisor-api.strapi.io/uploads/04e20a3d1fbd44199e3b5ce22f565175.jpg",
+      "name": "Pato com Bambú",
+      "category": "Sul",
+      "price": 450
+    },
+    {
+      "id": 5,
+      "image": "https://foodadvisor-api.strapi.io/uploads/bbd18e1c2e424df6bd0a1adf7b06b03f.jpeg",
+      "name": "Molho de Piri-Piri",
+      "category": "Centro",
+      "price": 500
+    },
+    {
+      "id": 6,
+      "image": "https://foodadvisor-api.strapi.io/uploads/0b20dec91eee46f9aca8e854b94c040b.jpeg",
+      "name": "Matapá de Abóbora",
+      "category": "Centro",
+      "price": 700
+    },
+    {
+      "id": 7,
+      "image": "https://foodadvisor-api.strapi.io/uploads/71035765a586481cb3c7a3e2f0615561.jpeg",
+      "name": "Matapa com Arroz Branco",
+      "category": "Centro",
+      "price": 2000
+    },
+    {
+      "id": 8,
+      "image": "https://foodadvisor-api.strapi.io/uploads/f52bb9722efe4b10bb3e5c3e0fd0896e.jpeg",
+      "name": "Matapa",
+      "category": "Centro",
+      "price": 1500
+    },
+    {
+      "id": 9,
+      "image": "https://foodadvisor-api.strapi.io/uploads/ded61641738540438ca95eb4e354a1b8.jpeg",
+      "name": "Arroz de Côco e Papaia",
+      "category": "Internacional",
+      "price": 600
+    },
+    {
+      "id": 10,
+      "image": "https://foodadvisor-api.strapi.io/uploads/9d54d9ed91274f0b8155f5eceb53a87d.jpeg",
+      "name": "Bolinho de Mandioca",
+      "category": "Internacional",
+      "price": 750
+    },
+    {
+      "id": 11,
+      "image": "https://foodadvisor-api.strapi.io/uploads/ded61641738540438ca95eb4e354a1b8.jpeg",
+      "name": "Bolo de Cajú e Batata",
+      "category": "Internacional",
+      "price": 320
+    },
+    {
+      "id": 12,
+      "image": "https://foodadvisor-api.strapi.io/uploads/05b96a46ea2b4b7bb045bd8b000bedb3.jpeg",
+      "name": "Caranguejos à Sofala",
+      "category": "Internacional",
+      "price": 258
+    },
+    {
+      "id": 13,
+      "image": "https://foodadvisor-api.strapi.io/uploads/bbd18e1c2e424df6bd0a1adf7b06b03f.jpeg",
+      "name": "Caranguejos à Sofala",
+      "category": "Norte",
+      "price": 130
+    },
+    {
+      "id": 14,
+      "image": "https://foodadvisor-api.strapi.io/uploads/05b96a46ea2b4b7bb045bd8b000bedb3.jpeg",
+      "name": "Bolo de Cajú e Batata",
+      "category": "Norte",
+      "price": 600
+    },
+    {
+      "id": 15,
+      "image": "https://foodadvisor-api.strapi.io/uploads/04e20a3d1fbd44199e3b5ce22f565175.jpg",
+      "name": "Caril de Camarão em Ananás",
+      "category": "Norte",
+      "price": 300
+    },
+    {
+      "id": 16,
+      "image": "https://foodadvisor-api.strapi.io/uploads/3cccaad906dd46d2b5b3eb4a9d9c0d76.jpeg",
+      "name": "Caril de Frango",
+      "category": "Norte",
+      "price": 400
+    }
+  ]
+}

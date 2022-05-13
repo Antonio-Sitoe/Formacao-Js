@@ -1,0 +1,56 @@
+.header {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  justify-content: space-between;
+  padding: 0 1rem;
+  background: #202020;
+}
+
+.logo a {
+  padding: .5rem .8rem;
+  background: tomato;
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    border-radius: .3rem;
+}
+
+.header .perfil,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  color: white;
+}
+
+.perfil {
+  font-size: 13px;
+}
+
+.header form {
+  border: 1px solid #272727;
+  display: flex;
+  max-width: 500px;
+  width: 100%;
+  padding: .3rem;
+  background: #121212;
+}
+.header form input {
+  display: block;
+  width: 100%;
+  background: transparent;
+
+  border: none;  padding: .3rem;
+}
+
+.header form button {
+  border: none;
+  background: #202020;
+  color: whitesmoke;
+padding: .3rem 1rem;
+}

@@ -1,0 +1,31 @@
+.menu {
+background: #202020;
+padding: 1rem;
+}
+
+.menu ul {
+  display: grid;
+  gap: 1rem;
+}
+
+.menu ul li {
+  display: flex;
+  align-items: center;
+  border-radius: .3rem;
+  padding: .6rem;
+
+}
+
+.menu ul li:hover {
+  cursor: pointer;
+  background-color: #616060;
+}
+
+.menu ul li::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  background-color: #616060;
+  margin-right: 1rem;
+
+}

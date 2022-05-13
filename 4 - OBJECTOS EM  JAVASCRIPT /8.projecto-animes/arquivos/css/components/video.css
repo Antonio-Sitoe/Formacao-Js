@@ -1,0 +1,29 @@
+.video {
+  background: whitesmoke;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.intro-video {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.video-btn {
+  width: 6rem;
+  height: 6rem;
+  border: 0.4rem solid #e6a418;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+}
+
+.video-btn:hover {
+  border: whitesmoke;
+}
+
+.video-btn img {
+  width: 3rem;
+}

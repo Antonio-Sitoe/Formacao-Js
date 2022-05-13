@@ -1,0 +1,99 @@
+body {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #252525;
+
+  /* grid-container - passa a ser um grid - pai*/
+  display: grid;
+}
+
+/*
+
+ grid-template colums 
+- Define o número total de colunas que serão criadas no grid.
+*/
+.container {
+  /* grid-template-columns: 30px 20px 20px 20px; */
+
+  /*  fr é uma unidade fracional. O tamanho do conteúdo é respeitado, ou seja, se o conteúdo na primeira coluna for maior que o da segunda, a primeira será maior. */
+
+  /* grid-template-columns: 1fr 1fr ; */
+
+  /* grid-template-columns: minmax(200px, 1fr) 1fr 1fr;; */
+
+  /* grid-template-columns: repeat(4, 1fr); */
+
+  /* grid-template-columns: repeat(auto-fit, minmax(100px, auto)); */
+  /* Cria automaticamente um total de colunas que acomode itens com no mínimo 100px de largura.*/
+}
+
+/* 
+
+3 • grid-template-rows
+    Define a quantidade de linhas no grid.
+
+ */
+.container {
+  /* grid-template-rows: 50px 100px; */
+  /* grid-template-rows: repeat(3, 80px); */
+}
+
+/* 4 • grid-template-areas
+
+   Define áreas específicas no grid. O ponto (.) pode ser utilizado para criar áreas vazias.
+
+ */
+
+/* .container {
+  grid-template-areas:
+    'logo nav nav'
+    'sidenav  content content'
+    'sidenav footer footer';
+}
+
+.item1 {
+  grid-area: logo;
+  background: red;
+}
+.item2 {
+   grid-area: nav;
+    background: blue;
+}
+.item3 {
+   grid-area: sidenav;
+}
+.item4 {
+   grid-area: footer;
+}
+.item5 {
+   grid-area: content;
+} */
+
+/* grid-gap */
+.container {
+  align-content: start;
+  align-items: end;
+  grid-template-columns: 200px 200px 200px;
+}
+.container div {
+  background: tomato;
+  margin: 5px;
+  padding: 3px;
+}
+
+
+.item1 {
+  grid-area: 1 /2;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.3) !important;
+  text-align: right;
+}
+.item2 {
+  grid-area: 1 /2;
+  
+}
+

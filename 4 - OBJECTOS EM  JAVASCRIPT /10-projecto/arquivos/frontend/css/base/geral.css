@@ -1,0 +1,43 @@
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 0.6rem;
+}
+
+@media (max-width: 760px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.loading {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.loading.show {
+  display: none;
+}
+
+.loadingElement {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 1rem solid grey;
+  border-right-color: transparent;
+  animation: 0.6s setLoading infinite;
+}
+
+.loading p {
+  margin-top: 2rem;
+  color: var(--color-grey);
+}
+
+@keyframes setLoading {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
